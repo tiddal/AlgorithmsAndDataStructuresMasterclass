@@ -105,13 +105,4 @@ class DoublyLinkedList {
   }
 }
 
-let dl = new DoublyLinkedList;
-dl.push(10).push(15).push(20);
-dl.reverse();
-console.log(dl.length);
-console.log(dl.head.val);
-
-
-
-
 export { DoublyLinkedList };
