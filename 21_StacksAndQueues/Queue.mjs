@@ -21,7 +21,7 @@ class Queue {
     nodeToPop.next = null;
     this.size--;
     if (this.size === 0) this.first = null, this.last = null;
-    return nodeToPop.value;
+    return nodeToPop;
   }
 }
 
